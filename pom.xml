@@ -13,6 +13,17 @@
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>nullcraft-repo</id>
+            <url>http://repo.nullcraft.de/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nullcraft-repo</id>
+            <url>http://repo.nullcraft.de/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>
